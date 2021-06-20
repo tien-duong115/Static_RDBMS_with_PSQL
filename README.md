@@ -39,17 +39,6 @@ Data columns (total 5 columns):
 RangeIndex: 6820 entries, 0 to 6819
 Data columns (total 7 columns):
 
-##### Songplay_table --> Fact table --> one to many with fact --> songplay_id PR UNIQUE RangeIndex: 6820 entries, 0 to 6819
+##### Songplay_table --> Fact table --> one to many with fact --> songplay_id PR UNIQUE 
+RangeIndex: 6820 entries, 0 to 6819
 Data columns (total 9 columns):
-    Column  Non-Null Count  Dtype         
----  ------  --------------  -----         
- 0   0       6820 non-null   int64         
- 1   1       6820 non-null   datetime64[ns]
- 2   2       6820 non-null   object        
- 3   3       6820 non-null   object        
- 4   4       6820 non-null   object        
- 5   5       6820 non-null   object        
- 6   6       6820 non-null   int64         
- 7   7       6820 non-null   object        
- 8   8       6820 non-null   object        
-dtypes: datetime64[ns](1), int64(2), object(6)
