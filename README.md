@@ -25,44 +25,19 @@ Data folder:
 ##### song_table --> dimensional table --> one to many with fact -->  song_id PR keyUNIQUE
 RangeIndex: 71 entries, 0 to 70
 Data columns (total 5 columns):
- #   Column  Non-Null Count  Dtype 
----  ------  --------------  ----- 
- 0   0       71 non-null     object
- 1   1       71 non-null     object
- 2   2       71 non-null     object
- 3   3       71 non-null     int64 
- 4   4       71 non-null     int64 
-dtypes: int64(2), object(3)
- 
+
 ##### artists_table --> dimensional table  --> one to many fact --> artist_id PR keyUNIQUE 
 RangeIndex: 71 entries, 0 to 70
 Data columns (total 5 columns):
- #   Column  Non-Null Count  Dtype  
----  ------  --------------  -----  
- 0   0       71 non-null     object 
- 1   1       71 non-null     object 
- 2   2       71 non-null     object 
- 3   3       31 non-null     float64
- 4   4       31 non-null     float64
-dtypes: float64(2), object(3)
+
 
 ##### users_table --> dimentional table --> one to many with fact --> user_id PR key UNIQUE
- * postgresql://postgres:***@127.0.0.1/sparkifydb
-10 rows affected.
-user_id	first_name	last_name	gender	level
-39	Walter	Frye	M	free
-8	Kaylee	Summers	F	free
-8	Kaylee	Summers	F	free
-8	Kaylee	Summers	F	free
-8	Kaylee	Summers	F	free
-8	Kaylee	Summers	F	free
-8	Kaylee	Summers	F	free
-8	Kaylee	Summers	F	free
-8	Kaylee	Summers	F	free
-8	Kaylee	Summers	F	free
+RangeIndex: 8056 entries, 0 to 8055
+Data columns (total 5 columns):
 
-time_table --> deminsional table --> one to many with fact --> start_time PR key UNIQUE
-
+##### time_table --> deminsional table --> one to many with fact --> start_time PR key UNIQUE
+RangeIndex: 6820 entries, 0 to 6819
+Data columns (total 7 columns):
 
 ##### Songplay_table --> Fact table --> one to many with fact --> songplay_id PR UNIQUE RangeIndex: 6820 entries, 0 to 6819
 Data columns (total 9 columns):
